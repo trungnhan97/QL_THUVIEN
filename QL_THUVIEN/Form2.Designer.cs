@@ -66,6 +66,7 @@
             this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
             this.ribbonBar2 = new DevComponents.DotNetBar.RibbonBar();
             this.buttonItem17 = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem18 = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonControl1.SuspendLayout();
             this.ribbonPanel1.SuspendLayout();
             this.ribbonPanel2.SuspendLayout();
@@ -429,10 +430,11 @@
             this.ribbonBar2.AutoOverflowEnabled = true;
             this.ribbonBar2.Dock = System.Windows.Forms.DockStyle.Left;
             this.ribbonBar2.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.buttonItem17});
+            this.buttonItem17,
+            this.buttonItem18});
             this.ribbonBar2.Location = new System.Drawing.Point(3, 0);
             this.ribbonBar2.Name = "ribbonBar2";
-            this.ribbonBar2.Size = new System.Drawing.Size(100, 95);
+            this.ribbonBar2.Size = new System.Drawing.Size(209, 95);
             this.ribbonBar2.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
             this.ribbonBar2.TabIndex = 0;
             this.ribbonBar2.Text = "ribbonBar2";
@@ -442,6 +444,12 @@
             this.buttonItem17.ImagePaddingHorizontal = 8;
             this.buttonItem17.Name = "buttonItem17";
             this.buttonItem17.Text = "buttonItem17";
+            // 
+            // buttonItem18
+            // 
+            this.buttonItem18.ImagePaddingHorizontal = 8;
+            this.buttonItem18.Name = "buttonItem18";
+            this.buttonItem18.Text = "buttonItem18";
             // 
             // Form2
             // 
@@ -499,5 +507,6 @@
         private DevComponents.DotNetBar.ButtonItem buttonItem16;
         private DevComponents.DotNetBar.RibbonBar ribbonBar2;
         private DevComponents.DotNetBar.ButtonItem buttonItem17;
+        private DevComponents.DotNetBar.ButtonItem buttonItem18;
     }
 }
