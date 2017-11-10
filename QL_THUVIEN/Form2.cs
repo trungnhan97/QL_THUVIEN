@@ -16,5 +16,10 @@ namespace QL_THUVIEN
         {
             InitializeComponent();
         }
+
+        private void ribbonPanel5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

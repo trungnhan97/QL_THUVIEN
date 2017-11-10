@@ -225,7 +225,7 @@
             this.Controls.Add(this.groupPanel3);
             this.Controls.Add(this.labelX1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Đăng nhập";
             this.groupPanel2.ResumeLayout(false);
             this.groupPanel3.ResumeLayout(false);
             this.ResumeLayout(false);
